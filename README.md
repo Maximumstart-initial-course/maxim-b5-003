@@ -158,3 +158,4 @@ npm test или npm t
 ```bash
 npm run all:fix
 ```
+[Профиль на htmlacademy:] https://htmlacademy.ru/profile/id614915
