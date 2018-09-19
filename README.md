@@ -1,7 +1,7 @@
 # Начальный курс веб-разработки
 
-* Студент:  `undefined`.
-* Ментор: `undefined`.
+* Студент:  `Maxim Belyaev`.
+* Ментор: `Pasha Knyasevich`.
 * План занятий: [нате](https://drive.google.com/open?id=1JoOGNCRK-BmZIJtLw8_5IDlTgl8UgIfLi1NBEPe-Qyo).
 * Требования к выпускному проекту: [тут](https://drive.google.com/open?id=1NsSIElGCQ6BvFFpnPRSQdisfcBkq-W0WqcLrTM7wl2I).
 * Основные репозитории: [здесь](https://github.com/Maximumstart-initial-course).
@@ -158,3 +158,4 @@ npm test или npm t
 ```bash
 npm run all:fix
 ```
+[Профиль на htmlacademy:] https://htmlacademy.ru/profile/id614915
