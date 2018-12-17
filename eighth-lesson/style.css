@@ -1,0 +1,75 @@
+.container {
+	background-size: cover;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: repeat(3, 115px);
+   	justify-content: stretch;
+   	align-content: stretch;
+    grid-template-areas: "item-1 item-1 item-6 item-7 item-8"
+                         "item-2 item-3 item-6 item-9 item-10"
+                         "item-4 item-5 item-6 item-11 item-12"
+}
+
+.img-1 {
+	height: 100%;
+	width: 100%;
+}
+
+.img-2 {
+	height: 100%;
+	width: 100%;
+}
+
+.img-3 {
+	height: 100%;
+	width: 100%;
+}
+
+.item-1 {
+	grid-area: item-1;
+}
+
+.item-2 {
+	grid-area: item-2;
+}
+
+.item-3 {
+	grid-area: item-3;
+}
+
+.item-4 {
+	grid-area: item-4;
+}
+
+.item-5 {
+	grid-area: item-5;
+}
+
+.item-6 {
+	grid-area: item-6;
+}
+
+.item-7 {
+	grid-area: item-7;
+}
+
+.item-8 {
+	grid-area: item-8;
+}
+
+.item-9 {
+	grid-area: item-9;
+}
+
+.item-10 {
+	grid-area: item-10;
+}
+
+.item-11 {
+	grid-area: item-11;
+}
+
+.item-12 {
+	grid-area: item-12;
+}
