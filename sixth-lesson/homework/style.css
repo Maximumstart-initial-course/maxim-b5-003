@@ -1,0 +1,49 @@
+{
+	font-family: sans-serif;
+}
+
+.article__more {
+	text-decoration: none;
+	color: #000000;
+}
+
+.article__more:hover {
+	border-bottom: 1px dashed #000000;
+}
+
+.article {
+	line-height: 27px;
+	height: 185px;
+	margin: 30px;
+	padding: 10px 30px 10px 30px;
+	background-color: #ccc;
+	border: 1px dashed #000000;
+}
+ h1 {
+	color: #000000;
+
+}
+
+
+.header {
+	text-align: center;
+	min-height: 230px;
+	background-color: #e5e5e5;
+	padding: 40px 0 40px 0;
+	font-family: Arial;
+}
+
+body {
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.footer {
+	padding: 15px;
+	background-color: #e5e5e5;
+	border-top: 1px solid #000000;
+}
+
+.header__title {
+	font-weight: bold;
+}
