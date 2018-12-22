@@ -44,7 +44,7 @@
 .nav-hamb {
 	background: url('../img/icon-menu.svg') no-repeat;
 	cursor: pointer;
-	position: absolute;
+	position: relative;
 	display: block;
 	width: 25px;
 	height: 25px;
@@ -89,6 +89,7 @@
 	margin: 30px auto 0;
 	position: relative;
 	left: 30px;
+	top: 25px;
 }
 
 .nav-hamb-checkbox:checked ~ .nav {
@@ -762,18 +763,24 @@ blockquote p {
 	text-align: center;
 	padding: 30px 0;
 	border-bottom: 1px solid #eee;
-	border-right: 1px solid #eee;
+/*	border-right: 1px solid #eee;*/
 }
 
-.best-pack-info {
+.best-pack-info,
+.best-pack-info-3 {
 	border: .5px solid #eee;
 	border-right: .5px solid transparent;
 	width: 388px;
 }
 
+.best-pack-info-3 {
+	border-left: none;
+}
+
 
 .best-pack-info-featured {
 	box-shadow: box-shadow: 0px -5px 0px 0px rgba(0,0,0,0.75);
+	border-right: 1px solid #eee;
 
 }
 
@@ -781,7 +788,8 @@ blockquote p {
 	height: 200px;
 }
 
-.best-pack-info:last-child {
+.best-pack-info:last-child,
+.best-pack-info-3:last-child {
 	border-right: .5px solid #eee;
 }
 
@@ -862,6 +870,7 @@ blockquote p {
 	height: 424px;
 	width: 341px;
 	padding-top: 112px;
+	padding-bottom: 50px;
 }
 
 
@@ -872,15 +881,18 @@ blockquote p {
 	background-color: transparent;
 	border: 1px solid #f9f9f9;
 	border-radius: 1px;
+	color: white;
+	padding-left: 5px;
 }
 
-.form-list textarea {
+.form-list #textarea {
 	width: 300px;
 	height: 145px;
 	background-color: transparent;
 	border: 1px solid #f9f9f9;
 	border-radius: 1px;
-	resize: none; 
+	resize: none;
+	padding-top: 6px; 
 }
 
 .form-list label {
@@ -1059,4 +1071,8 @@ blockquote p {
 
 .scroll-1-1 {
 	background-color: #2b3746;
+}
+
+.main-header {
+	background-position: center;
 }

@@ -8,8 +8,8 @@
 </head>
 
 <body>
+	<div class="wrapper">
 		<header class="main-header">
-			<div class="wrapper">
 				<div class="header-top">
 					<a class="logo" href="#"><img src="img/logo.png" alt="logo"></a>
 					<div class="header-menu">
@@ -41,15 +41,13 @@
 					<p>Enean vulputate eleifend  tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend <br> ac, enim iam ultricies nisi eleifend tellus.</p>
 					<a href="#" class="header-more">Let`s talk</a>
 				</div>
-				<button class="button-additional"></button>
-			</div>
+				<a class="button-additional" href="#services-info"></a>
 		</header>
 	
 	<main>
 		<section class="zet-services">
-			<div class="wrapper">
 				<div class="zet-title">
-					<h2>Services</h2>
+					<h2 id="services-info">Services</h2>
 					<p>Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
 				</div>
 			
@@ -82,18 +80,14 @@
 						<h3>MADE WITH LOVE</h3>
 						<p class="heart-desc">ecenas tempus, tellus eget condimentum  rhoncus, sem quam semper libero, vulputate eget, arcu.</p>
 					</div>
-				</div>
-			</div>
 		</section>
 	
 
 		<section class="zet-works">
-			<div class="wrapper">
 				<div class="zet-works-desc">
 					<h2>Works</h2>
 					<p>Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
 				</div>
-			</div>
 				<div class="zet-works-gallery">
 					<a href="img/work-example-1.png"><img src="img/work-example-1.png" alt="work example #1"></a>
 					<a href="img/work-example-2.png"><img src="img/work-example-2.png" alt="work example #2"></a>
@@ -111,7 +105,6 @@
 			</section>
 
 		<section class="zet-clients">
-			<div class="wrapper">
 				<div class="zet-clients-desc">
 					<h2>Happy clients</h2>
 					<p>Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
@@ -129,11 +122,9 @@
 							<div class="scroll-1"></div>
 						</div>
 					</div>
-				</div>
 		</section>
 
 		<section class="zet-team">
-			<div class="wrapper">
 				<div class="zet-team-title">
 					<h2>Our professional team</h2>
 					<p>Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
@@ -199,7 +190,6 @@
 						</article>
 					</div>
 				</div>
-			</div>
 					<a class="meeting-link" href="#">Meet our full team</a>
 		</section>
 
@@ -213,7 +203,6 @@
 			</section>
 	
 		<section class="zet-prices">
-			<div class="wrapper">
 				<div class="zet-title">
 					<h2>Pricing table</h2>
 					<p>Awan mripat gendhis angsal Jawa Ipsum nangis rumput wilujeng</p>
@@ -242,7 +231,7 @@
 						</div>
 					</article>
 
-					<article class="best-pack-info">
+					<article class="best-pack-info-3">
 						<div class="best-pack-title">
 							<h3>VIP pack</h3>
 							<p><span>$250</span>per month</p>
@@ -253,7 +242,6 @@
 						</div>
 					</article>
 				</div>
-			</div>
 		</section>
 
 	<section class="zet-additional-info">
@@ -264,28 +252,26 @@
 		<div class="zet-additional-form">
 				<form action="http://maximumstart-echo.herokuapp.com" method="post" class="form-list">
 					<div>
-						<input type="text" name="name" class="name"> 
+						<input type="text" name="name" id="name"> 
 						<label for="name">Name</label>
 					</div>
 					<div>
-						<input type="email" name="email" class="email"> 
+						<input type="email" name="email" id="email"> 
 						<label for="email">Email</label>
 					</div>
 					<div>
-						<input type="text" name="phone" class="phone"> 
+						<input type="text" name="phone" id="phone"> 
 						<label for="phone">Phone</label>
 					</div>
 					<div>
-					<textarea name="Message" class="textarea"></textarea>
+					<textarea name="Message" id="textarea"></textarea>
 						<label for="textarea" class="message">Message</label>
 						<input type="submit" id="submit" value="Submit">
 					</div>
 			</form>
-		</div>
 	</section>
 
 		<footer class="main-footer">
-			<div class="wrapper">
 				<div class="footer-copyright">
 					<img src="img/zet-footer.png" alt="footer-logo" class="footer-logo">
 					<p>© Copyright 2015. Allright Reserved</p>
@@ -299,8 +285,8 @@
 						<a href="https://dribbble.com"><i class="sprite sprite-dribble-footer"></i></a>
 					</div>
 				</div>
-			</div>
 		</footer>
 	</main>
+</div>
 </body>
 </html>
